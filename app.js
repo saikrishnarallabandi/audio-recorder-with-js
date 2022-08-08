@@ -88,7 +88,7 @@ const application = (index) => {
             clearDisplay()
             clearControls()
     
-            addMessage($text)
+            addMessage("Press record to start recording")
             addButton('record', 'record()', 'Start Recording')
             break;
 
